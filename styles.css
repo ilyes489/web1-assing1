@@ -1,0 +1,43 @@
+/* I changed the body to make the website easier to read. */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+}
+
+/* I used the same background colour for the header and footer. */
+header, footer {
+    background-color: lightgray;
+}
+
+/* This changes the colour of the main title. */
+.site-title {
+    color: darkblue;
+}
+
+/* This adds a shadow around my image. */
+#my-image {
+    box-shadow: 0 0 2px 1px black;
+}
+
+/* This changes the hobby list bullets to squares. */
+ul {
+    list-style-type: square;
+}
+
+/* This styles the navigation menu. */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav a {
+    text-decoration: none;
+    background-color: lightgray;
+    border: 1px solid black;
+    padding: 5px 10px;
+}
+
+nav a:hover,
+nav a:active {
+    background-color: lightblue;
+}
